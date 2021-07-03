@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 100px;
+}
+
+.header {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.menu ul{padding: 0;list-style-type: none;
+}
+
+.menu ul li{display: inline-block;
+}
+
+.menu ul a{padding: 10px;
+    display: inline-block;
+}
+
+
+.logo,
+.menu, 
+.cta{ min-width: 100px;
+border: 1px solid red; }
+
+.container{
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{background: lightblue;
+    flex-basis: 20%;
+    padding: 20px;
+}
+
+@media (max-width: 767px) {
+    
+    .item{flex-basis: 20px;
+}
+
+}
+
+
